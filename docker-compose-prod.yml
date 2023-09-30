@@ -1,0 +1,7 @@
+version: '3'
+services:
+  nginx-static-website:
+    image: malsuelibi/nginx-static-website:latest
+    ports:
+      - "80:80"
+    restart: always
