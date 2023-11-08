@@ -1,11 +1,6 @@
 version: '3'
 services:
-  web:
+  nginx-static-website:
     image:  malsuelibi/nginx-static-website:latest
     ports:
       - "80:80"
-    networks:
-      - mynetwork
-
-networks:
-  mynetwork:
